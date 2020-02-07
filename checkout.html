@@ -216,17 +216,18 @@
 
 				<div id="residential" Style="display: none">
 					<div class="col-md-4">
-						<label for="nb_apartments ">How many appartements are in this building ? *</label>
+						<label for="nb_apartments ">How many appartments are in this building ? *</label>
 						<input required type="number" onkeyup="quantityResi(gamme)" min="0"
 							id="residential_nb_apartments" class="ombre">
 					</div>
 					<div class="col-md-4">
 						<label for="nb_floors">How many floors ? *</label>
-						<input required type="number" onkeyup="quantityResi(gamme)" min="0" id="residential_nb_floors"class="ombre">
+						<input required type="number" onkeyup="quantityResi(gamme)" min="0" id="residential_nb_floors"
+							class="ombre">
 					</div>
 					<div class="col-md-4">
 						<label for="nb_basements">How many basements ? *</label>
-						<input required type="number" min="0" id="residential_nb_basements"class="ombre">
+						<input required type="number" min="0" id="residential_nb_basements" class="ombre">
 					</div>
 				</div>
 
@@ -235,25 +236,26 @@
 				<div id="commercial" Style="display: none">
 					<div class="col-md-4">
 						<label for="commercial_nb_building">How many building you have ? *</label>
-						<input required type="number" min="0" id="commercial_nb_building"class="ombre">
+						<input required type="number" min="0" id="commercial_nb_building" class="ombre">
 					</div>
 					<div class="col-md-4">
 						<label for="commercial_nb_floors">How many floors ? *</label>
-						<input required type="number" min="0" id="commercial_nb_floors"class="ombre">
+						<input required type="number" min="0" id="commercial_nb_floors" class="ombre">
 					</div>
 					<div class="col-md-4">
 						<label for="commercial_nb_basements">How many basements ? *</label>
-						<input required type="number" min="0" id="commercial_nb_basements"class="ombre">
+						<input required type="number" min="0" id="commercial_nb_basements" class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="commercial_nb_parking">How many parking do you have ? *</label>
-						<input required type="number" min="0" id="commercial_nb_parking"class="ombre">
+						<input required type="number" min="0" id="commercial_nb_parking" class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="commercial_nb_elevator">How many elevator shaft you need to be deployed *</label>
-						<input required type="number" onkeyup="shaft()" min="0" id="commercial_nb_elevator"class="ombre">
+						<input required type="number" onkeyup="shaft()" min="0" id="commercial_nb_elevator"
+							class="ombre">
 
 					</div>
 				</div>
@@ -263,29 +265,32 @@
 				<div id="corporate" Style="display: none">
 					<div class="col-md-4">
 						<label for="corporate_nb_tenants">How many tenants ? *</label>
-						<input required type="number" min="0" onkeyup="quantity_corp(gamme)" id="corporate_nb_tenants"class="ombre">
+						<input required type="number" min="0" onkeyup="quantity_corp(gamme)" id="corporate_nb_tenants"
+							class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="corporate_nb_floors">How many floors ? *</label>
-						<input required type="number" min="0" onkeyup="quantity_corp(gamme)" id="corporate_nb_floors"class="ombre">
+						<input required type="number" min="0" onkeyup="quantity_corp(gamme)" id="corporate_nb_floors"
+							class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="corporate_nb_basements">How many basements contains your building ? *</label>
-						<input required type="number" min="0" onkeyup="quantity_corp(gamme)"
-							id="corporate_nb_basements"class="ombre">
+						<input required type="number" min="0" onkeyup="quantity_corp(gamme)" id="corporate_nb_basements"
+							class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="corporate_nb_parking">How many parking do you have ? *</label>
-						<input required type="number" min="0" onkeyup="quantity_corp(gamme)" id="corporate_nb_parking"class="ombre">
+						<input required type="number" min="0" onkeyup="quantity_corp(gamme)" id="corporate_nb_parking"
+							class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="corporate_nb_occupants">What is the maximum number of occupants per floors *</label>
-						<input required type="number" min="0" onkeyup="quantity_corp(gamme)"
-							id="corporate_nb_occupants"class="ombre">
+						<input required type="number" min="0" onkeyup="quantity_corp(gamme)" id="corporate_nb_occupants"
+							class="ombre">
 
 					</div>
 				</div>
@@ -293,33 +298,36 @@
 				<div id="hybrid" Style="display: none">
 					<div class="col-md-4">
 						<label for="hybrid_nb_businesses">How many number of distinct businesses you have ? *</label>
-						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_businesses"class="ombre">
+						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_businesses"
+							class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="hybrid_nb_floors">How many floors contains your building ? *</label>
-						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_floors"class="ombre">
+						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_floors" class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="hybrid_nb_basements">How many basements contains you building ? *</label>
-						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_basements"class="ombre">
+						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_basements"
+							class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="hybrid_nb_parking">How many free parking do you have ? *</label>
-						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_parking"class="ombre">
+						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_parking" class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="occupants_max">what is the maximum number of occupants per floors ? *</label>
-						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_occupants"class="ombre">
+						<input type="number" min="0" onkeyup="quantity_hyb(gamme)" id="hybrid_nb_occupants"
+							class="ombre">
 
 					</div>
 					<div class="col-md-4">
 						<label for="hybrid_nb_activity">How many operating activity you have on your building ?
 							*</label>
-						<input type="number" min="0" id="hybrid_nb_activity"class="ombre">
+						<input type="number" min="0" id="hybrid_nb_activity" class="ombre">
 
 					</div>
 
@@ -401,10 +409,85 @@
 						</span>
 						<hr />
 				</div>
-
+				<a href="index.html#" class="btn btn-xlg btn-secondary fs-10 fullwidth m-0 rad-0 p-20">
+					<span class="font-lato fs-30">
+						
+						<strong>Send Quote & Return to home &raquo;</strong>
+					</span>
+				</a>
 
 				<!-- /TOTAL / PLACE ORDER -->
+				<!-- FOOTER -->
+				<footer id="footer">
+					<div class="auto-container">
 
+
+						<div class="row">
+
+							<!-- col #1 -->
+							<div class="col-md-8">
+
+								<h3 class="letter-spacing-1">WHY US?</h3>
+
+								<!-- Small Description -->
+								<p>
+									We are committed to providing the best possible support in all your construction
+									projects
+									involving elevators.
+									Whether for a new construction, or an installation in an existing building, we will
+									be able
+									to assist you throughout
+									the entire project by entrusting you to our experienced team, which has several
+									years of
+									experience and a ton
+									of projects successfully delivered.
+								</p>
+								<h2>(800) 123-4567</h2>
+							</div>
+							<!-- /col #1 -->
+
+							<!-- col #2 -->
+							<div class="col-md-4">
+								<h3 class="letter-spacing-1">KEEP IN TOUCH</h3>
+
+								<!-- Newsletter Form -->
+								<p>Subscribe to Our Newsletter to get Important News & Offers</p>
+
+								<form class="validate" action="php/newsletter.php" method="post"
+									data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
+									<div class="input-group">
+										<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+										<input type="email" id="email" name="email" class="form-control required"
+											placeholder="Enter your Email">
+										<span class="input-group-btn">
+											<button class="btn btn-success" type="submit">Subscribe</button>
+										</span>
+									</div>
+								</form>
+								<!-- /Newsletter Form -->
+
+
+							</div>
+							<!-- /col #2 -->
+
+						</div>
+
+
+					</div>
+
+					<div class="copyright">
+						<div class="container">
+							<ul class="float-right m-0 list-inline mobile-block">
+								<li><a href="#">Terms &amp; Conditions</a></li>
+								<li>&bull;</li>
+								<li><a href="#">Privacy</a></li>
+							</ul>
+							&copy; Rocket Elevators, Company LTD
+						</div>
+					</div>
+
+				</footer>
+				<!-- /FOOTER -->
 				<!-- SCROLL TO TOP -->
 				<a href="#" id="toTop"></a>
 

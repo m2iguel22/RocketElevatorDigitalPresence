@@ -27,8 +27,8 @@ function quantityResi(gamme,) {
     } else {
         selected_price_range = 0;
     }
-    //var categorie = parseFloat($("imput[name='radioanswer']:checked").val());
-    //console.log("categorie", categorie);
+    var categorie = parseFloat($("imput[name='radioanswer']:checked").val());
+    console.log("categorie", categorie);
 
 
     var total_app = Math.ceil(nb_apartments / nb_floors);
